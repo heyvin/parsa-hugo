@@ -9,29 +9,29 @@ sections:
   label: Document
   match: "**/*"
 - type: directory
-  path: exampleSite/content
+  path: site/content
   label: Post
   create: documents
   match: "*"
   templates:
   - post
 - type: directory
-  path: exampleSite/content/about
+  path: site/content/about
   label: About
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/contact
+  path: site/content/contact
   label: Contact
   create: none
   match: "*"
 - type: directory
-  path: exampleSite
+  path: site
   label: Configuration
   create: all
   match: "*.toml"
   new_doc_ext: toml
-upload_dir: exampleSite/static/images
+upload_dir: site/static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
