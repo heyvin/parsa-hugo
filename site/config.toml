@@ -1,7 +1,7 @@
 # default config
-baseurl = "https://examplesite.org"
+baseurl = "https://eategy.com"
 languageCode = "en-us"
-title = "Parsa Hugo | Personal Blog Template"
+title = "Eategy"
 theme = "parsa-hugo"
 summaryLength = "10"
 paginate = 6
